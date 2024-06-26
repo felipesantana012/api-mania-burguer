@@ -1,0 +1,23 @@
+{
+  "name": "mania-food-back-end",
+  "version": "1.0.0",
+  "description": "Projeto 3  mania food back end",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Felipe Santana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  }
+}
