@@ -5,10 +5,11 @@ import cors from "cors";
 import conectarDB from "./src/config/dbMongoConfig.js";
 import routes from "./src/routes/index.js";
 
-app.use(cors());
+
 const app = express();
 app.use(bodyParser.json());
 app.use(express.json());
+app.use(cors());
 conectarDB();
 app.use("/", routes);
 
